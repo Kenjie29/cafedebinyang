@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8" />
+	<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+	<meta name="description" content="Cafe de Binyang - good coffee, good food, good company." />
+	<title>Cafe de Binyang</title>
+	<link rel="preconnect" href="https://fonts.googleapis.com" />
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+	<link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Playfair+Display:ital,wght@0,500;0,600;1,500;1,600&display=swap" rel="stylesheet" />
+	<link rel="icon" type="image/jpeg" href="img/logo.jpg" />
+	<link rel="stylesheet" href="style.css" />
+</head>
+<body>
+	<div class="announcement">Freshly brewed, always welcoming <span>•</span> Open daily 10:00 AM – 12:00 MN</div>
+	<div class="promo-banner" id="promo-banner" hidden>
+		<div class="promo-banner-inner"><span class="promo-kicker">Now at the cafe</span><strong id="promo-title"></strong><span id="promo-description"></span><a id="promo-link" href="#menu">See the details <span>↗</span></a></div>
+	</div>
+
+	<header class="site-header">
+		<a class="brand" href="#top" aria-label="Cafe de Binyang home">
+			<img src="img/logo.jpg" alt="Cafe de Binyang" />
+		</a>
+		<button class="menu-toggle" type="button" aria-label="Toggle navigation" aria-expanded="false">
+			<span></span><span></span>
+		</button>
+		<nav class="site-nav" aria-label="Main navigation">
+			<a href="#story">Our story</a>
+			<a href="#menu">Menu</a>
+			<a href="#space">The space</a>
+			<a href="#visit">Visit us</a>
+			<a class="nav-order" href="#visit">Plan your visit <span>↗</span></a>
+		</nav>
+	</header>
+
+	<main id="top">
+		<section class="hero">
+			<div class="hero-copy">
+				<p class="eyebrow">Cafe / Binyang</p>
+				<h1>A little more<br /><em>life</em> in every sip.</h1>
+				<p class="hero-description">Coffee, comfort food, and a corner to call yours. Come as you are, stay for a while.</p>
+				<a class="button button-dark" href="#menu">Discover the menu <span>↗</span></a>
+			</div>
+			<div class="hero-image-wrap">
+				<img class="hero-image" src="img/cover.jpg" alt="Cafe de Binyang iced coffee" />
+				<div class="hero-stamp">Good<br />coffee<br /><i>good days</i></div>
+			</div>
+		</section>
+
+		<section class="intro section-pad" id="story">
+			<div class="section-label">01 — The cafe</div>
+			<div class="intro-content">
+				<h2>Come for the coffee.<br /><em>Stay for the feeling.</em></h2>
+				<div class="intro-text">
+					<p>At Cafe de Binyang, every cup is an invitation to pause. We pair bold, beautifully made drinks with simple food and a space that feels a little like home.</p>
+					<a class="text-link" href="#space">Discover our story <span>↗</span></a>
+				</div>
+			</div>
+			<div class="intro-rule"></div>
+			<div class="values">
+				<div><strong>01</strong><span>Thoughtful<br />ingredients</span></div>
+				<div><strong>02</strong><span>Made with<br />intention</span></div>
+				<div><strong>03</strong><span>Served with<br />warmth</span></div>
+			</div>
+		</section>
+
+		<section class="favorites section-pad" id="menu">
+			<div class="section-heading">
+				<div><div class="section-label">02 — On the menu</div><h2>House <em>favorites</em></h2></div>
+				<a class="text-link" href="#visit">See everything <span>↗</span></a>
+			</div>
+			<div class="favorite-grid">
+				<article class="favorite-card favorite-card-featured">
+					<div class="card-image"><img src="img/big drink cover.jpg" alt="Creamy iced coffee with whipped cream" /><span class="card-number">01</span></div>
+				</article>
+				<article class="favorite-card">
+					<div class="card-image"><img src="img/product 2.jpg" alt="Cafe de Binyang drinks and rice meal" /><span class="card-number">02</span></div>
+				</article>
+				<article class="favorite-card">
+					<div class="card-image"><img src="img/nachos.jpg" alt="Loaded nachos with cheese" /><span class="card-number">03</span></div>
+				</article>
+			</div>
+		</section>
+
+		<section class="space-feature" id="space">
+			<div class="space-image"><img src="img/cover 1.jpg" alt="The leafy brick wall inside Cafe de Binyang" /></div>
+			<div class="space-copy">
+				<div class="section-label">03 — Make yourself at home</div>
+				<h2>Your new favorite<br /><em>corner</em> of the day.</h2>
+				<p>Good light, good music, and enough room for whatever the day asks of you. Bring a book, a friend, or simply yourself.</p>
+				<div class="space-details"><span>Wi-Fi</span><span>Plenty of seats</span><span>Pet friendly</span></div>
+				<a class="button button-yellow" href="#visit">Find us <span>↗</span></a>
+			</div>
+		</section>
+
+		<section class="gallery section-pad">
+			<div class="gallery-heading"><div class="section-label">04 — Good company</div><p>Little moments from<br /><em>our table to yours.</em></p></div>
+			<div class="gallery-grid">
+				<img src="img/big drink cover 2.jpg" alt="Three colorful Cafe de Binyang drinks" />
+				<img class="gallery-tall" src="img/fulfilling combo.jpg" alt="A filling meal and iced drinks at Cafe de Binyang" />
+				<img src="img/big drink cover 3.jpg" alt="Matcha and chocolate drinks with nachos" />
+			</div>
+		</section>
+
+		<section class="visit" id="visit">
+			<div class="visit-inner">
+				<p class="eyebrow">Come say hello</p>
+				<h2>See you<br /><em>at the cafe.</em></h2>
+				<div class="visit-info"><div><span>Find us</span><a class="location-link" href="https://www.google.com/maps/search/?api=1&query=Cafe+de+Binyang+Binan+Laguna" target="_blank" rel="noreferrer">Binan, Laguna<br />Philippines <svg class="map-icon" viewBox="0 0 24 24" aria-hidden="true"><path d="M12 21s7-6.1 7-11A7 7 0 0 0 5 10c0 4.9 7 11 7 11Z"></path><circle cx="12" cy="10" r="2.2"></circle></svg></a></div><div><span>Hours</span><strong>Every day<br />10:00 AM – 12:00 MN</strong></div></div>
+				<div class="visit-actions"><a class="button button-light map-button" href="https://www.google.com/maps/search/?api=1&query=Cafe+de+Binyang+Binan+Laguna" target="_blank" rel="noreferrer" aria-label="Open Cafe de Binyang in Google Maps" title="Open in Google Maps"><svg class="map-icon" viewBox="0 0 24 24" aria-hidden="true"><path d="M12 21s7-6.1 7-11A7 7 0 0 0 5 10c0 4.9 7 11 7 11Z"></path><circle cx="12" cy="10" r="2.2"></circle></svg></a><span class="social-links"><a href="https://www.instagram.com/cafe.debinyang/?hl=en" target="_blank" rel="noreferrer" aria-label="Instagram" title="Instagram"><svg viewBox="0 0 24 24" aria-hidden="true"><rect x="3.5" y="3.5" width="17" height="17" rx="5"></rect><circle cx="12" cy="12" r="4"></circle><circle class="social-dot" cx="17.5" cy="6.5" r="1"></circle></svg></a><a href="https://www.facebook.com/profile.php?id=61576993928059" target="_blank" rel="noreferrer" aria-label="Facebook" title="Facebook"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M14 21v-8h2.7l.4-3H14V8.1c0-.9.3-1.6 1.7-1.6h1.8V3.8c-.3 0-1.4-.1-2.6-.1-2.6 0-4.4 1.6-4.4 4.5V10H7.7v3h2.8v8H14Z"></path></svg></a></span></div>
+			</div>
+			<img class="visit-image" src="img/feedback.jpg" alt="Cafe de Binyang drinks on a table" />
+		</section>
+	</main>
+
+	<footer class="site-footer">
+		<div class="footer-top"><img src="img/logo.jpg" alt="Cafe de Binyang" /><p>Good coffee.<br />Good days.</p><a href="#top" class="back-top">Back to top ↑</a></div>
+		<div class="footer-bottom"><span>© 2024 Cafe de Binyang</span><span>Made with care in Binyang · <a class="admin-link" href="admin.html">Staff admin</a></span></div>
+	</footer>
+	<script>
+		const toggle = document.querySelector('.menu-toggle');
+		const nav = document.querySelector('.site-nav');
+		toggle.addEventListener('click', () => {
+			const isOpen = nav.classList.toggle('is-open');
+			toggle.setAttribute('aria-expanded', isOpen);
+		});
+		nav.querySelectorAll('a').forEach((link) => link.addEventListener('click', () => nav.classList.remove('is-open')));
+		const renderPromo = () => {
+			const promo = JSON.parse(localStorage.getItem('cafePromo') || 'null');
+			const banner = document.querySelector('#promo-banner');
+			if (!promo || !promo.title) {
+				banner.hidden = true;
+				return;
+			}
+			document.querySelector('#promo-title').textContent = promo.title;
+			document.querySelector('#promo-description').textContent = promo.description;
+			document.querySelector('#promo-link').textContent = promo.cta + ' ↗';
+			document.querySelector('#promo-link').href = promo.link || '#menu';
+			banner.hidden = false;
+		};
+		renderPromo();
+		window.addEventListener('storage', renderPromo);
+	</script>
+</body>
+</html>
